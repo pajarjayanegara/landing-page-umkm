@@ -1,0 +1,137 @@
+body {
+    font-family: 'Quicksand';
+}
+
+/* Navbar */
+.navbar {
+    padding: 20px;
+}
+.navbar-brand {
+    font-weight: 600;
+    color: black !important;
+    
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 600;
+    color: black !important;
+}
+
+.nav-item.active{
+    color: #5525ED !important;
+}
+
+.nav-item:hover {
+    color: rgb(155, 154, 156) !important;
+}
+
+.nav-item {
+    margin-right: 24px;
+    color: white;
+}
+
+/* Jumbotron */
+.jumbotron {
+    height: 600px;
+    background-image: url('image/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -70px;
+
+}
+
+ /*Section bulat*/
+ .content-image {
+    width: 64px;
+    height: 64px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
+.icon {
+    font-size: 26px;
+    color: white;
+}
+
+.service h6 {
+font-weight: 600;
+}
+
+.wrap-content {
+    background-color: rgb(240, 236, 234);
+    padding: 50px;
+    margin-top: -35px;
+}
+
+/* section produk */
+.produk-content {
+    margin-top: 50px;
+}
+
+.produk-content h5 {
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.card-title {
+    font-weight: 900;
+}
+
+.card-text {
+    font-size: 12px;
+    margin: 0;
+}
+
+.card-harga {
+    font-weight: 900;
+}
+
+/* sektion activity */
+
+.activity-content h5 {
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.card-text .btn {
+    font-size: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 60px;
+    font-weight: 400;
+    color: white;
+    background-color:black;
+}
+
+
+/* dekstop view (media query) */
+@media (min-width: 992px) {
+
+.navbar {  
+    background-color: black !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-item {
+    color: white !important;
+
+}
